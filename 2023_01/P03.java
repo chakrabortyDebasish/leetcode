@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * P03 [944. Deleted Colums to make sorted]
  * 
