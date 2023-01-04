@@ -21,11 +21,8 @@ import java.util.Scanner;
 public class P03 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         String[] strs = new String[] { "abc", "bce", "cae" };
         System.out.println(minDeletionSize(strs));
-        sc.close();
-
     }
 
     private static int minDeletionSize(String[] strs) {
