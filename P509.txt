@@ -1,0 +1,13 @@
+class Solution {
+    public int fib(int placeholder) {
+        
+        if (placeholder == 0)
+            return 0;
+        else if (placeholder == 1)
+            return 1;
+
+        int output = fib(placeholder - 1) + fib(placeholder - 2);
+
+        return output;
+    }
+}
